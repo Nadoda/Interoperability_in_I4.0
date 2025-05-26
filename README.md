@@ -37,7 +37,7 @@ Each microservice is maintained within a modular repository structure and includ
 
 The CI/CD pipeline enables automated integration and deployment of services, as shown in the diagram below:
 
-![Deployment through automate CI/CD pipelines](Resources/CI-CD pipelines.jpg)
+![Deployment through automate CI/CD pipelines](Resources/CI-CD%20pipelines.jpg)
 
 ### 🚀 How with Azure Cloud Services (through Azure DevOps, AKS, and other services)
 
