@@ -4,7 +4,7 @@
 
 This project explores the concept of **interoperability in Industry 4.0** within an order-controlled industrial scenario. The illustration below shows how an active **Product Asset Administration Shell (AAS)** follows a predefined sequence of orders to complete its product instance process. The AAS acts both as a **service provider** and a **service requester**.
 
-![Interoperability in an Order-Controlled Industry](Nadoda/Interoperability_in_I4.0/Resources/Order-Controlled_IndustryVisual.jpg)
+![Interoperability in an Order-Controlled Industry](Resources/Order-Controlled_IndustryVisual.jpg)
 
 In this dynamic, the AAS is initially invoked by other services and subsequently initiates its own service requests to various providers including the **manufacturing unit**, **assembly unit**, and other relevant systems.
 
