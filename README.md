@@ -10,7 +10,7 @@ In this dynamic, the AAS is initially invoked by other services and subsequently
 
 The autonomous execution of these processes requires a suite of intelligent algorithms. These are developed using a **microservices architecture** and deployed to the system. The figure below represents an active AAS alongside the supporting services and algorithms needed for the **Service Requester / Service Provider (SR/SP)** interaction model.
 
-![An active AAS with SR/SP behaviour](Nadoda/Interoperability_in_I4.0/Resources/ActiveAAS.jpg)
+![An active AAS with SR/SP behaviour](Resources/ActiveAAS.jpg)
 
 ### 🔧 Core Services & Algorithms
 
@@ -37,7 +37,7 @@ Each microservice is maintained within a modular repository structure and includ
 
 The CI/CD pipeline enables automated integration and deployment of services, as shown in the diagram below:
 
-![Deployment through automate CI/CD pipelines](Nadoda/Interoperability_in_I4.0/Resources/CI-CD pipelines.jpg)
+![Deployment through automate CI/CD pipelines](Resources/CI-CD pipelines.jpg)
 
 ### 🚀 How with Azure Cloud Services (through Azure DevOps, AKS, and other services)
 
@@ -56,7 +56,7 @@ We use **Terraform** to define and provision infrastructure in a consistent, rep
 * **Storage Accounts**
 * **Networking resources (VNETs, Subnets, NSGs)**
 
-> All infrastructure definitions are stored as `.tf` files and version-controlled in Azure Repos or GitHub, mentioned in the above Repo with folder **Resource Manager**.
+ All infrastructure definitions are stored as `.tf` files and version-controlled in Azure Repos or GitHub, mentioned in the above Repo with folder **Resource Manager**.
 
 ---
 
@@ -99,7 +99,7 @@ All microservices are deployed and managed using **AKS**, which offers:
 * Secrets management through **Azure Key Vault integration**
 * Monitoring and logging using **Azure Monitor** or **Prometheus** and **Log Analytics**
 
-> Helm charts or Kubernetes YAML files stored in **K8S** folder are used to define service deployments, ingress rules, config maps, and persistent volumes.
+ Helm charts or Kubernetes YAML files stored in **K8S** folder are used to define service deployments, ingress rules, config maps, and persistent volumes.
 
 ---
 
@@ -111,9 +111,4 @@ All microservices are deployed and managed using **AKS**, which offers:
 4. Terraform provisions AKS & infrastructure if needed
 5. Azure Pipeline deploys image to AKS
 6. Azure Monitor tracks live status & logs
-
----
-
-By combining **Terraform**, **Azure DevOps**, and **Azure cloud-native services**, we ensure a robust, automated, and scalable environment for deploying Industry 4.0 microservices.
-
 
