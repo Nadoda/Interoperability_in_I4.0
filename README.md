@@ -8,14 +8,13 @@ This project explores the concept of **interoperability in Industry 4.0** within
   <img src="./Resources/Order-Controlled_IndustryVisual.jpg" alt="Interoperability in an Order-Controlled Industry" width="600" />
 </p>
 
-
-![Interoperability in an Order-Controlled Industry](Resources/Order-Controlled_IndustryVisual.jpg)
-
 In this dynamic, the AAS is initially invoked by other services and subsequently initiates its own service requests to various providers including the **manufacturing unit**, **assembly unit**, and other relevant systems.
 
 The autonomous execution of these processes requires a suite of intelligent algorithms. These are developed using a **microservices architecture** and deployed to the system. The figure below represents an active AAS alongside the supporting services and algorithms needed for the **Service Requester / Service Provider (SR/SP)** interaction model.
 
-![An active AAS with SR/SP behaviour](Resources/ActiveAAS.jpg)
+<p align="center">
+  <img src="./Resources/ActiveAAS.jpg" alt="An active AAS with SR/SP behaviour" width="600" />
+</p>
 
 ### 🔧 Core Services & Algorithms
 
@@ -42,7 +41,10 @@ Each microservice is maintained within a modular repository structure and includ
 
 The CI/CD pipeline enables automated integration and deployment of services, as shown in the diagram below:
 
-![Deployment through automate CI/CD pipelines](Resources/CI-CD%20pipelines.jpg)
+<p align="center">
+  <img src="./Resources/CI-CD pipelines.jpg" alt="Deployment through automate CI/CD pipelines" width="600" />
+</p>
+
 
 ### 🚀 How with Azure Cloud Services (through Azure DevOps, AKS, and other services)
 
