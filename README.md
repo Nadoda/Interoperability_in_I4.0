@@ -46,7 +46,7 @@ The CI/CD pipeline enables automated integration and deployment of services, as 
 </p>
 
 
-### 🚀 How with Azure Cloud Services (through Azure DevOps, AKS, and other services)
+## How with Azure Cloud Services (through Azure DevOps, AKS, and other services)
 
 This section explaines how with leveraging the **Azure ecosystem** to build, test, deploy, and manage microservices-based architectures. Here's a step-by-step breakdown of how Azure services are used to streamline implementation and deployment:
 
